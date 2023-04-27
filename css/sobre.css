@@ -1,0 +1,49 @@
+body {
+  background-color: #fff;
+}
+
+h1 {
+  font-family: cambria, sans-serif;
+  color: #fff;
+  margin-bottom:0;
+  margin-top:2rem;
+  margin-left:30rem;
+  font-size: 50px;
+}
+
+.about-details {
+  margin: 20px;
+  display: flex;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+h2 {
+  font-family: Lucida Sans, sans-serif;
+  flex: 1 0 250px;
+  font-size: 20px;
+  margin-left:25rem;
+  color: #000;
+  margin-right: rem;
+}
+
+body p {
+  font-family: Lucida Sans, sans-serif;
+  flex: 1 0 250px;
+  font-size: 22px;
+  color: #fff;
+  margin-left:0;
+  -webkit-text-stroke: 0.2px black;
+}
+
+h3 {
+  font-family: cambria, sans-serif;
+  color: #000;
+  margin-bottom:0;
+  margin-top:2rem;
+  margin-left:20rem;
+  font-size: 25px;
+
+}
+
