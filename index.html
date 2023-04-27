@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hoteis na Cidade - Hospedagem</title>
+  <link rel="stylesheet" type="text/css" href="css/estilo.css">
+</head>
+<body>
+  <header>
+
+    <h4>YOUR MAO PLACE</h4>
+
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Sobre Nós</a></li>
+        <li><a href="#">Reservar</a></li>
+        <li><a href="#">Contato</a></li>
+        <li><a href="#">Login/Cadastro</a></li>
+      </ul>
+    </nav>
+    <div class="hero-image">
+      <div class="hero-text">
+        <h1>Buscar hotéis por toda Manaus</h1>
+        <form>
+          <label for="location">Localização:</label>
+          <input type="text" id="location" name="location">
+          <label for="checkin">Data de Chegada:</label>
+          <input type="date" id="checkin" name="checkin">
+          <label for="checkout">Data de Saída:</label>
+          <input type="date" id="checkout" name="checkout">
+          <label for="estrelas">Estrelas:</label>
+          <select id="estrelas" name="estrelas">
+            <option value="none">Todos</option>
+            <option value="5">5</option>
+            <option value="4">4</option>
+            <option value="3">3</option>
+            <option value="2">2</option>
+            <option value="1">1</option>
+          </select>
+          <label for="price">Preço:</label>
+          <select id="price" name="price">
+
+            <option value="qualquer">Qualquer Preço</option>
+            <option value="1">Até R$ 100</option>
+            <option value="2">R$ 100 - R$ 500</option>
+            <option value="3">R$ 500 - R$ 1000</option>
+            <option value="4">Mais de R$ 1000</option>
+          </select>
+
+          <button type="submit">Filtrar</button>
+        </form>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="hotel-list">
+
+      <h2>Lista de hoteis na cidade</h2>
+
+      <div class="hotel-card">
+        <div class="hotel-image">
+          <img src="img/taj.png" alt="Hotel 1">
+        </div>
+        <div class="hotel-details">
+          <h3>Taj Mahal Continental Hotel</h3>
+          <p>Hotel 5 estrelas.</p>
+          <p>Av. Getúlio Vargas, 741 - Centro, Manaus - AM, 59600-115</p>
+          <p><strong>Preço:</strong> R$ 200-300</p>
+          <a href="#">Reservar</a>
+        </div>
+      </div>
+
+      <div class="hotel-card">
+        <div class="hotel-image">
+          <img src="img/tropical.png" alt="Hotel 2">
+        </div>
+        <div class="hotel-details">
+          <h3>Tropical Hotel Manaus</h3>
+          <p>Hotel 5 estrelas.</p>
+          <p>Av. Coronel Teixeira, 1320 A - Ponta Negra, Manaus - AM, 69037-000</p>
+          <p><strong>Preço:</strong> R$ 370-610</p>
+          <a href="#">Reservar</a>
+        </div>
+      </div>
+
+      <div class="hotel-card">
+        <div class="hotel-image">
+          <img src="img/iberostar.png" alt="Hotel 3">
+        </div>
+        <div class="hotel-details">
+          <h3>Iberostar Grand Amazon</h3>
+          <p>Hotel 5 estrelas.</p>
+          <p>Av. Marquês de Santa Cruz, 69 - Centro, Manaus - AM, 69005-050</p>
+          <p><strong>Preço:</strong> R$ 2.424-3.353</p>
+          <a href="#">Reservar</a>
+        </div>
+      </div>
+
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2023 Site de Hospedagem em Hotéis - Your MAO Place</p>
+  </footer>
+</body>
+</html>
+
